@@ -19,6 +19,7 @@ body{
     color:white;
 }
 
+
 /* LAYOUT */
 .container{
     width: 100%;
@@ -32,38 +33,24 @@ body{
     display: flex;
 }
 
-/* WEBAPP*/
 
-.app{
-    display: flex;
+/* ASIDE */
+.nav{
+    background-color:#000000;
+    width: 200px;
 }
-
-
-.app .page-main{
-    flex-grow: 1;
-}
-
-
-
-/*HEADER*/
-.page-header .row{
+nav.row{
     flex-direction: column;
-    justify-content:flex-start;
-    min-height:85vh;
+    justify-content: space-between;
     padding: 20px 10px;
+    
 }
-.menu{
-    flex-grow: 1;
-}
-
-
 
 
 
 /*MAIN*/
-.nav{
-    background-color:#000000;
-    width: 200px;
+.app{
+   width: 100%;
 }
 .page-main{
     height:calc(100vh - 80px);
@@ -74,7 +61,7 @@ body{
 }
 .content{
     background-color:#141923 ;
-    height: 100%;
+    height:calc(100% - 80px)
 }
 
 
