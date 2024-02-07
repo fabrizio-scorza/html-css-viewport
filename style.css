@@ -32,7 +32,7 @@ body{
 .flex{
     display: flex;
 }
-
+    
 
 /* ASIDE */
 .nav{
@@ -61,7 +61,8 @@ nav.row{
 }
 .content{
     background-color:#141923 ;
-    height:calc(100% - 80px)
+    height:calc(100% - 80px);
+    overflow:auto;
 }
 
 
