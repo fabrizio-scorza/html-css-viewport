@@ -46,6 +46,17 @@ body{
     width: 100%;
     padding: 30px 10px; 
 }
+.app .page-main{
+    flex-grow: 1;
+}
+.app .join-us{
+    background-color:#0E121B ;
+    min-height: 80px;
+}
+.app .content{
+    background-color:#141923 ;
+    min-height:85vh;
+}
 
 /*HEADER*/
 .page-header .row{
@@ -57,6 +68,9 @@ body{
 .menu{
     flex-grow: 1;
 }
+
+/*MAIN*/
+
 /*FOOTER*/
 
 .page-footer .row{
