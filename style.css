@@ -51,6 +51,7 @@ nav.row{
 /*MAIN*/
 .app{
    width: 100%;
+   background-color:#141923 ;
 }
 .page-main{
     height:calc(100vh - 80px);
@@ -60,8 +61,6 @@ nav.row{
     min-height: 80px;
 }
 .content{
-    background-color:#141923 ;
-    height:calc(100% - 80px);
     overflow:auto;
 }
 
